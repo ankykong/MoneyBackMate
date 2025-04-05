@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "get-your-money-agent"
+version = "0.1.0"
+description = ""
+authors = ["Ankur Duggal <38927181+ankykong@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "get_money_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.1.0"
+pipecat-ai = "^0.0.62"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
